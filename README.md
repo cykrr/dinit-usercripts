@@ -10,12 +10,12 @@ exec-once = dinit -u --cgroup-path /run/user/1000 -d ~/.local/etc/dinit.d
 
 ```
 
-## edp-off (Hyprland)
 
-Disables the laptop's monitor if HDMI screen is found (needs adjusting)
+
 
 | Service | Function |
 | ------  | -------  |
+| edp-off | Disables the laptop's monitor if HDMI screen is found (needs adjusting) |
 | waybar  | Status bar |
 | mpvpaper | (animated) wallpaper manager |
 | mpd | Music Player Daemon|

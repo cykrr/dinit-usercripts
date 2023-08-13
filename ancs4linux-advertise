@@ -1,0 +1,4 @@
+type = process
+command =  /home/krr/.local/bin/ancs4linux-advertising
+logfile = /home/krr/.local/var/log/dinit/ancs4l-advert.log
+ 

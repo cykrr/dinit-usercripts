@@ -1,0 +1,4 @@
+type            = process
+command         = ~/.local/etc/dinit.d/scripts/mysqld
+smooth-recovery = true
+logfile         = ~/.local/var/log/dinit/mysqld.log

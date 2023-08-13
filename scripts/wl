@@ -1,0 +1,3 @@
+#!/bin/bash
+WAYLAND_DISPLAY=$(find /run/user/1000 -name "*wayland*" | head -n 1 | sed "s/\/run\/user\/$UID\///")
+

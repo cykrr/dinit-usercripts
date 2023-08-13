@@ -1,0 +1,3 @@
+type = scripted
+command = /home/krr/.local/etc/dinit.d/scripts/edp-off
+logfile = /home/krr/.local/log/edp-off.log

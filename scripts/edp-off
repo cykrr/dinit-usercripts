@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# if hdmi is plugged
+if hyprctl monitors | grep HDMI-A-1 > /dev/null; then
+    wlr-randr --output eDP-1 --off
+    touch .off
+fi

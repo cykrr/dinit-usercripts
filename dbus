@@ -1,0 +1,4 @@
+type = process
+command = /home/krr/.local/etc/dinit.d/scripts/dbus
+ready-notification=pipevar:DINIT_FD
+logfile = /home/krr/.local/var/log/dinit/dbus.log

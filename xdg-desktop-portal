@@ -1,0 +1,4 @@
+command = /usr/lib/xdg-desktop-portal -r
+logfile = /home/krr/.local/log/xdg-desktop-portal.log
+depends-on = xdg-desktop-portal-hyprland
+

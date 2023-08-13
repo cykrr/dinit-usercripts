@@ -1,0 +1,5 @@
+type = process
+command =  /home/krr/.local/bin/ancs4linux-desktop-integration
+depends-on = ancs4linux
+logfile = /home/krr/.local/var/log/dinit/ancs4l-desktop.log
+ 

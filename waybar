@@ -1,0 +1,6 @@
+type        = process
+command     =  bash -c "/usr/bin/waybar"
+logfile     = /home/krr/.local/var/log/dinit/waybar.log
+depends-ms  = pipewire
+restart     = true
+ 

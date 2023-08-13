@@ -1,0 +1,5 @@
+type        = process
+command     = bash -c "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1"
+logfile     = /home/krr/.local/var/log/dinit/mate-polkit.log
+restart     = true
+ 

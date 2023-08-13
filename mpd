@@ -1,0 +1,5 @@
+type = process
+command =  bash -c "mpd --no-daemon"
+logfile = /home/krr/.local/var/log/dinit/mpd.log
+depends-on = pipewire
+ 

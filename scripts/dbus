@@ -1,0 +1,5 @@
+#!/bin/sh
+exec dbus-daemon --nofork --nopidfile \
+    --session \
+    --print-address="${DINIT_FD?:No ready fd}" \
+    --address="${DBUS_SESSION_BUS_ADDRESS:?No address}"

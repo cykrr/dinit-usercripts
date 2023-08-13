@@ -1,0 +1,6 @@
+# TODO: select random wallpaper
+type        = process
+command     =  bash -c "mpvpaper '*' ~/Pictures/wall/wall.mp4 -o \"--loop --hwdec=auto\""
+logfile     = /home/krr/.local/var/log/dinit/mpvpaper.log
+depends-on  = pipewire
+restart     = true

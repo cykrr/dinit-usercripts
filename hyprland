@@ -1,0 +1,5 @@
+type = process
+command =  Hyprland
+depends-on = dbus
+logfile = /home/krr/.local/var/log/dinit/hyprland.log
+ 
